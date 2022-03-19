@@ -48,7 +48,7 @@ requirements:
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
-    - r-bh >=1.75.0_0
+    #- r-bh >=1.75.0_0
     - r-rcpp >=1.0.7
     - r-rcpparmadillo >=0.10.7.3.0
     - r-dplyr >=1.0.8
