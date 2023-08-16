@@ -3,6 +3,7 @@ About r-mrgsolve-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mrgsolve-feedstock/blob/main/LICENSE.txt)
 
+
 About r-mrgsolve
 ----------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/metrumresearchgroup/mrgsolve
 Package license: GPL-2.0-or-later
 
 Summary: Fast simulation from ordinary differential equation (ODE) based models typically employed in quantitative pharmacology and systems biology.
+
 About r-mrgsolve
 ----------------
 
