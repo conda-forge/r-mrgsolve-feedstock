@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mrgsolve_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mrgsolve/mrgsolve_{{ version }}.tar.gz
-  sha256: 029e2aaab743d91a10a64966cf8bfefd9b781184fc05d2227faacef9ac32ede7
+  sha256: aeec76e30790c355c1827b42e5572b4e5a9ecf7498f44d7e6176ffa5e42efcf2
 
 build:
   merge_build_host: true  # [win]
