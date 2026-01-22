@@ -1,4 +1,4 @@
-{% set version = "1.6.1" %}
+{% set version = "1.7.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mrgsolve_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mrgsolve/mrgsolve_{{ version }}.tar.gz
-  sha256: 5dca9b1773265be2c7ddbd6c377d5b4a4feb70d6e6b4546c716b9e33d1662b63
+  sha256: 9c55afd620657a1e21162b99a7a9e5c000e5e70cea85b32defdef20fd7889efc
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
