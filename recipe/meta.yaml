@@ -1,4 +1,4 @@
-{% set version = "1.7.2" %}
+{% set version = "2.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mrgsolve_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mrgsolve/mrgsolve_{{ version }}.tar.gz
-  sha256: 9c55afd620657a1e21162b99a7a9e5c000e5e70cea85b32defdef20fd7889efc
+  sha256: e07ca06a1f06dcaf29ce4fd9979e99f6e968a9804926a0d5ec5edb9f840f8ebd
 
 build:
   number: 0
